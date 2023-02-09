@@ -17,7 +17,7 @@ int [] GetArrayRand (int size, int leftrange, int rightrange)
 
 void PrintTask29(int[] a)
 {
-   System.Console.WriteLine("["+string.Join(", ",arr_rand) +"]");
+   System.Console.WriteLine("["+string.Join(", ",a) +"]");
 }
 
 int[] array = GetArrayRand(12,0,100);
